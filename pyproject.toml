@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "base-template"
+name = "flutter-learning"
 version = "0.0.0"
 description = "base template"
 authors = ["Luis Mayta <luis@hadenlabs.com>"]
