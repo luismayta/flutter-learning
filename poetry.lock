@@ -405,18 +405,18 @@ crt = ["awscrt (==0.16.9)"]
 
 [[package]]
 name = "bridgecrew"
-version = "2.3.294"
+version = "2.3.301"
 description = "Infrastructure as code static analysis"
 category = "dev"
 optional = false
 python-versions = "*"
 files = [
-    {file = "bridgecrew-2.3.294-py3-none-any.whl", hash = "sha256:a2003301b79e1a374a1c4e3b76403ce7becddc84101e0c51b9bba1359a10b1aa"},
-    {file = "bridgecrew-2.3.294.tar.gz", hash = "sha256:3b3fc4f8368cd5109acc03adb336db1a6ec1859e9e0a6f1b2760589ae97caa99"},
+    {file = "bridgecrew-2.3.301-py3-none-any.whl", hash = "sha256:0d751efddf00ca2cb458bd1aef3d8d80836308f52adbd0c098f92e8ea2915876"},
+    {file = "bridgecrew-2.3.301.tar.gz", hash = "sha256:14a57acba635fe4a0338560955f879e72a3afa58537d9e65256ec53e10019f1a"},
 ]
 
 [package.dependencies]
-checkov = "2.3.294"
+checkov = "2.3.301"
 
 [[package]]
 name = "bump2version"
@@ -657,14 +657,14 @@ files = [
 
 [[package]]
 name = "checkov"
-version = "2.3.294"
+version = "2.3.301"
 description = "Infrastructure as code static analysis"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "checkov-2.3.294-py3-none-any.whl", hash = "sha256:e78e139b52e9cccc4e31300b1a164697fc7c4ffee1809606a08da027e77a5644"},
-    {file = "checkov-2.3.294.tar.gz", hash = "sha256:3b54092861a45f1b8c4cbde9d730fb97f18591de26cceb80561dfe525d1dce2a"},
+    {file = "checkov-2.3.301-py3-none-any.whl", hash = "sha256:4d7cac96a7df68eb0c82e1956bcf78a359fa7ca422d167488f2c4b4a12dc266f"},
+    {file = "checkov-2.3.301.tar.gz", hash = "sha256:f33bf7e39b7dd9d0087a7ae9b97d038ba7c9496e4cb8ee154fbce605883a8a45"},
 ]
 
 [package.dependencies]
@@ -700,7 +700,7 @@ packageurl-python = "*"
 packaging = "*"
 policyuniverse = "*"
 prettytable = ">=3.0.0"
-pycep-parser = "0.4.0"
+pycep-parser = "0.4.1"
 pyston = {version = "2.3.5", markers = "python_version < \"3.11\" and sys_platform == \"linux\" and platform_machine == \"x86_64\" and implementation_name == \"cpython\" or python_version < \"3.11\" and sys_platform == \"darwin\" and platform_machine == \"x86_64\" and implementation_name == \"cpython\""}
 pyston-autoload = {version = "2.3.5", markers = "python_version < \"3.11\" and sys_platform == \"linux\" and platform_machine == \"x86_64\" and implementation_name == \"cpython\" or python_version < \"3.11\" and sys_platform == \"darwin\" and platform_machine == \"x86_64\" and implementation_name == \"cpython\""}
 pyyaml = ">=5.4.1"
@@ -2166,14 +2166,14 @@ idna = ["idna (>=2.1)"]
 
 [[package]]
 name = "pycep-parser"
-version = "0.4.0"
+version = "0.4.1"
 description = "A Python based Bicep parser"
 category = "dev"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "pycep_parser-0.4.0-py3-none-any.whl", hash = "sha256:f6061c31175062b2c6a38b37e0fa20469f08bd46ebbf5b40da3f100efcca350f"},
-    {file = "pycep_parser-0.4.0.tar.gz", hash = "sha256:f6cf51b32ee43fee27eb8d18e48b130e7618a17c48ab0b7dcab9740bbbb655e1"},
+    {file = "pycep_parser-0.4.1-py3-none-any.whl", hash = "sha256:27c87ad875538eb17d696002b266d921ce8eb3f7fa3b7fc09c1b3c085009527f"},
+    {file = "pycep_parser-0.4.1.tar.gz", hash = "sha256:a3edd1c3d280c283d614c865a854a693daf56c35cd4095b373016c214baa76dd"},
 ]
 
 [package.dependencies]
